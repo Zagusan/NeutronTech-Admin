@@ -6,6 +6,7 @@
     <title>Libros Núñez - Inventario</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="form.css">
     <link rel="icon" href="Resources/Núñez_industries.png">
 </head>
 
@@ -33,22 +34,46 @@
             <div class="admin-layout">
                 <div class="titulo">
                     <h3>Título</h3>
-                    <input id="titulo" type="text" placeholder="Título">
-                </div>
+                    <div class="form-control">
+                        <input type="value" required="">
+                        <label>
+                            <span style="transition-delay:0ms">Título</span>
+                        </label>
+                    </div>
                 <div class="autor">
                     <h3>Autor</h3>
-                    <div class="autor-layout">
-                        <input id="autor" type="text" placeholder="Nombre">
-                        <input type="text" placeholder="Apellido">
+                    <div id="autor-layout">
+                        <div class="form-control">
+                            <input type="value" required="">
+                            <label>
+                                <span style="transition-delay:0ms">Nombre</span>
+                            </label>
+                        </div>
+                        <div class="form-control">
+                            <input type="value" required="">
+                            <label>
+                                <span style="transition-delay:0ms">Apellido</span>
+                            </label>
+                        </div>
                     </div>
                 </div>
                 <div class="genero">
                     <h3>Género</h3>
-                    <input id="genero" type="text" placeholder="Género">
+                    <div class="form-control">
+                        <input type="value" required="">
+                        <label>
+                            <span style="transition-delay:0ms">Género</span>
+                        </label>
+                    </div>
                 </div>
                 <div class="disponibilidad">
                     <h3>Disponibilidad</h3>
-                    <input id="disponib" type="text" placeholder="Disponibilidad">
+                    <div class="form-control">
+                        <input type="value" required="">
+                        <label>
+                            <span style="transition-delay:0ms">Disponibilidad</span>
+                        </label>
+                    </div>
                 </div>
             </div>
         </section>

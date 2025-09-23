@@ -12,26 +12,15 @@
 input[type="text"]
 {
     border-radius: 8px;
+    flex: 1 1;
 }
 
 .admin-layout
 {
     display: flex;
-    flex: 1 1;
+    align-items: center;
+    width: 100%;
     flex-direction: column;
-}
-
-.admin-layout div
-{
-    display: flex;
-    flex-direction: column;
-}
-
-.autor-layout
-{
-    display: flex;
-    flex: 1 1;
-    flex-direction: row;
 }
 
 h3 {
