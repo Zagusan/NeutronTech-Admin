@@ -164,3 +164,16 @@ main {
         bounce-y 1s infinite alternate ease-in-out;
     animation-delay: 0s, 0.5s;
 }
+
+.admin-layout div
+{
+    justify-content: center;
+    align-items: center;
+}
+
+#autor-layout
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
