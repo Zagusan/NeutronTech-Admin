@@ -1,4 +1,14 @@
-/* From Uiverse.io by liyaxu123 */ 
+/* Estilos generales */
+:root {
+    font-family: Arial, sans-serif;
+    --primary-color: rgba(43, 43, 43, 0.9); /*jet*/
+    --secondary-color: rgba(231, 94, 117, 0.9); /*bright-pink-crayola*/
+    --tertiary-color: rgba(242, 242, 242, 1); /*white-smoke*/
+    --quaternary-color: rgba(214, 214, 214, 1); /*timber-wolf*/
+    --quiternary-color: rgba(187, 199, 165, 1); /*sage*/
+}
+
+/* From Uiverse.io by liyaxu123 */
 .form-control {
   position: relative;
   margin: 20px 0 40px;
@@ -9,7 +19,7 @@
   background-color: #fff;
   border: 0;
   border-radius: 8px;
-  border-bottom: 2px #471f96 solid;
+  border-bottom: 2px var(--secondary-color) solid;
   display: block;
   width: 100%;
   padding: 15px 0;
@@ -20,7 +30,7 @@
 .form-control input:focus,
 .form-control input:valid {
   outline: 0;
-  border-bottom-color: #3c1a7f;
+  border-bottom-color: var(--secondary-color);
 }
 
 .form-control label {
