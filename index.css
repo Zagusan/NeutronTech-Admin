@@ -1,0 +1,21 @@
+.inv-grid
+{
+    display: grid;
+    width: 75%;
+    max-width: 1000px;
+    background-color: #808080;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    border: 2px #808080 solid;
+}
+
+.inv-grid div
+{
+    background-color: white;
+}
+
+.inv-grid div h3
+{
+    text-align: center;
+}
