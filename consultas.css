@@ -75,16 +75,6 @@ header h1 {
     transition: 0.2s ease;
 }
 
-.form-control input:focus + .form-label span,
-.form-control input:valid + .form-label span {
-    transform: translateY(-200%);
-    transition: 0.2s ease;
-    color: var(--secondary-color);
-    background-color: var(--primary-color);
-    padding: 2px 10px;
-    border-radius: 4px;
-}
-
 .btn-agregar {
     background-color: #64b64b;
     color: var( --tertiary-color);

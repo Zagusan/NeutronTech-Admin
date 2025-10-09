@@ -16,7 +16,7 @@
 }
 
 .form-control input {
-  background-color: #fff;
+  background-color: var(--primary-color);
   border: 0;
   border-radius: 8px;
   border-bottom: 2px var(--secondary-color) solid;
@@ -24,7 +24,7 @@
   width: 100%;
   padding: 15px 0;
   font-size: 18px;
-  color: #fff;
+  color: var(--secondary-color);
 }
 
 .form-control input:focus,
@@ -44,12 +44,16 @@
   display: inline-block;
   font-size: 18px;
   min-width: 5px;
-  color: #000;
+  color: var(--secondary-color);
   transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .form-control input:focus+label span,
 .form-control input:valid+label span {
-  color: #3c1a7f;
-  transform: translateY(-35px);
+    transform: translateY(-200%);
+    transition: 0.2s ease;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    padding: 2px 10px;
+    border-radius: 4px;
 }
