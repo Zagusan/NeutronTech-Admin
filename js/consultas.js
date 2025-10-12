@@ -15,10 +15,6 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getDatabase(app);
 
-function updateTable(val) {
-    console.log(val);
-}
-
 const productRef = ref(db, "/");
 onValue(productRef, (snapshot) => {
     const data = snapshot.val();
