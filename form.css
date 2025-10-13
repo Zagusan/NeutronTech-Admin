@@ -1,26 +1,36 @@
-/* From Uiverse.io by liyaxu123 */ 
+/* Estilos generales */
+:root {
+    font-family: Arial, sans-serif;
+    --primary-color: rgba(43, 43, 43, 0.9); /*jet*/
+    --secondary-color: rgba(231, 94, 117, 0.9); /*bright-pink-crayola*/
+    --tertiary-color: rgba(242, 242, 242, 1); /*white-smoke*/
+    --quaternary-color: rgba(214, 214, 214, 1); /*timber-wolf*/
+    --quiternary-color: rgba(187, 199, 165, 1); /*sage*/
+}
+
+/* From Uiverse.io by liyaxu123 */
 .form-control {
   position: relative;
   margin: 20px 0 40px;
-  width: 100%;
+  width: 190px;
 }
 
 .form-control input {
-  background-color: #fff;
+  background-color: var(--primary-color);
   border: 0;
   border-radius: 8px;
-  border-bottom: 2px #471f96 solid;
+  border-bottom: 2px var(--secondary-color) solid;
   display: block;
   width: 100%;
   padding: 15px 0;
   font-size: 18px;
-  color: #fff;
+  color: var(--secondary-color);
 }
 
 .form-control input:focus,
 .form-control input:valid {
   outline: 0;
-  border-bottom-color: #3c1a7f;
+  border-bottom-color: var(--secondary-color);
 }
 
 .form-control label {
@@ -34,12 +44,16 @@
   display: inline-block;
   font-size: 18px;
   min-width: 5px;
-  color: #000;
+  color: var(--secondary-color);
   transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .form-control input:focus+label span,
 .form-control input:valid+label span {
-  color: #3c1a7f;
-  transform: translateY(-35px);
+    transform: translateY(-200%);
+    transition: 0.2s ease;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    padding: 2px 10px;
+    border-radius: 4px;
 }
